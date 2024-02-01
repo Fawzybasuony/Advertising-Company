@@ -17,10 +17,10 @@ card.forEach(eo => {
 
           let add_class = `
            <div class="row mx-0 d-flex justify-content-between align-items-center">
-                    <div class="col-6 col-sm-5 tols my-5">
+                    <div class="col-7 col-sm-5 tols my-5">
                          <img src="${photo}" style="width: 300px;height: 300px;">
                     </div>
-                    <div class="col-6 col-sm-5 me-5 me-sm-5">
+                    <div class="col-7 col-sm-5 me-5 me-sm-5">
                          <p class="fs-4 fw-bold text-primary">${text}</p>
                                  <h3 class="d-block">${h3_1}</h3>
                                  <h3 class="d-block">${h3_2}</h3>
