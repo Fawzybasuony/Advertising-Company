@@ -16,18 +16,17 @@ card.forEach(eo => {
           let h3_2 = eo.getElementsByTagName("h3")[1].innerText
 
           let add_class = `
-
            <div class="row mx-0 d-flex justify-content-between align-items-center">
-               <div class="col-6 tols my-5">
-                    <img src="${photo}" style="width: 250px;height: 250px;">
-               </div>
-               <div class="col-4 me-1 me-sm-5">
-                    <p class="fs-4 fw-bold text-primary">${text}</p>
-                              <h6 class="text-primary fw-bold d-block">${h3_1}</h6>
-                              <h6 class="text-primary fw-bold d-block">${h3_2}</h6>
-               </div>
+                    <div class="col-6 col-sm-5 tols my-5">
+                         <img src="${photo}" style="width: 300px;height: 300px;">
+                    </div>
+                    <div class="col-6 col-sm-5 me-5 me-sm-5">
+                         <p class="fs-4 fw-bold text-primary">${text}</p>
+                              <h3>${h3_1}</h3>
+                              <h3>${h3_2}</h3>
 
-          </div>
+                    </div>
+               </div>
           `
           all_2.innerHTML = add_class;
 
