@@ -22,8 +22,8 @@ card.forEach(eo => {
                     </div>
                     <div class="col-6 col-sm-5 me-5 me-sm-5">
                          <p class="fs-4 fw-bold text-primary">${text}</p>
-                              <h3>${h3_1}</h3>
-                              <h3>${h3_2}</h3>
+                                 <h3 class="d-block">${h3_1}</h3>
+                                 <h3 class="d-block">${h3_2}</h3>
 
                     </div>
                </div>
